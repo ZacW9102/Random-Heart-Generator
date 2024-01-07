@@ -8,7 +8,7 @@ generateBtnEl.addEventListener("click", function(){
     
     let heartArray = []
     
-    for (let i = 0; i < 120; i++) {
+    for (let i = 0; i < 132; i++) {
         heartArray.push(heartColors[Math.floor(Math.random()*heartColors.length)])
         
     }

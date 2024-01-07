@@ -2,41 +2,40 @@ html, body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #FF4D6D;
+    background: #ffe0e9;
     background-size: cover;
     height: 510px;
     user-select: none;
-
+    font-size: 17px;
 }
 
 .container {
     display: flex;
     max-width: 320px;
     flex-direction: column;
-    margin: 10px auto;
+    margin: 30px auto 10px;
 }
 
 h1 {
-    color: #800F2F;
-    text-shadow: 0px 0px 8px #FFB3C1;
-    margin-top: 30px;
+    color: #522e38;
+    margin-top: 30px;   
 }
 
 button {
-    margin-bottom: 20px;
     padding: 8px;
-    margin: 0px auto 20px;
+    margin: 20px auto 30px;
     border: none;
     width: 113px;
     font-size: 20px;
     background-color: #800F2F;
     color: #FFF0F3;
     border-radius: 8px;
+    font-family: cursive;
 }
 
 #output {
-    border: 2px solid #FFF0F3;
-    height: 250px;
+    border: 2px solid #522e38;
+    height: 274px;
     width: 300px;
     padding: 5px 0px;
     background-color: #FF8FA3;
@@ -49,12 +48,9 @@ button {
     margin: 8px 1px;
 }
 
-#copy-btn{
-    margin-top: 20px;
-}
-
 button:hover {
     cursor: pointer;
+    
 }
 
 ::selection {
