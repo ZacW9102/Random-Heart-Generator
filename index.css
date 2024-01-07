@@ -14,7 +14,6 @@ html, body {
     max-width: 350px;
     flex-direction: column;
     margin: 10px auto;
-    padding-bottom: 0px;
 }
 
 h1 {
@@ -37,7 +36,7 @@ button {
 
 #output {
     border: 2px solid #FFF0F3;
-    height: 260px;
+    height: 250px;
     width: 300px;
     padding: 5px 0px;
     background-color: #FF8FA3;
@@ -51,7 +50,7 @@ button {
 }
 
 #copy-btn{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 button:hover {
