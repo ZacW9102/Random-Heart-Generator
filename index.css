@@ -1,10 +1,17 @@
 body {
     text-align: center;
-    background: linear-gradient(#FF4D6D, #590D22);
+    background: #FF4D6D;
     background-size: cover;
-    padding-bottom: 20px;
     height: 510px;
     
+}
+
+.container {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    margin: 10px auto;
+    padding-bottom: 0px;
 }
 
 h1 {
@@ -16,8 +23,10 @@ h1 {
 
 button {
     margin-bottom: 20px;
+    padding: 8px;
+    margin: 0px auto 20px;
     border: none;
-    padding: 10px 20px;
+    width: 113px;
     font-size: 20px;
     background-color: #800F2F;
     color: #FFF0F3;
@@ -27,7 +36,7 @@ button {
 
 #output {
     border: 2px solid #FFF0F3;
-    height: 300px;
+    height: 260px;
     width: 300px;
     padding: 5px 0px;
     background-color: #FF8FA3;
@@ -42,9 +51,6 @@ button {
 
 #copy-btn{
     margin-top: 15px;
-    background-color: #FF4D6D;
-    color: #590D22;
-    font-weight: bold;
 }
 
 button:hover {
