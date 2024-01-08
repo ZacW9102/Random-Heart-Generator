@@ -6,7 +6,7 @@ html, body {
     background-size: cover;
     height: 510px;
     user-select: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .container {
@@ -17,30 +17,37 @@ html, body {
 }
 
 h1 {
-    color: #800F2F;
-    margin-top: 30px;   
+    color: #522e38;
+    margin-top: 10px;   
 }
 
 button {
     padding: 8px;
-    margin: 20px auto 30px;
+    margin: 0px auto 10px;
     border: none;
-    width: 113px;
+    width: 126px;
     font-size: 20px;
     background-color: #800F2F;
     color: #FFF0F3;
     border-radius: 8px;
 }
 
+#generate-btns {
+    flex-wrap: wrap;
+    width: 300px;
+    
+}
+
+
 #output {
     border: 2px solid #522e38;
-    height: 276px;
+    height: 274px;
     width: 300px;
     padding: 5px 0px;
     background-color: #FF8FA3;
     border-radius: 5px;
     font-size: 21px;
-    margin: 0px auto;
+    margin: 0px auto 20px;
 }
 
 #hearts {
