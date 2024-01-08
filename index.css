@@ -6,7 +6,7 @@ html, body {
     background-size: cover;
     height: 510px;
     user-select: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .container {
@@ -18,26 +18,20 @@ html, body {
 
 h1 {
     color: #522e38;
-    margin-top: 10px;   
+    margin-top: 30px;   
 }
 
 button {
     padding: 8px;
-    margin: 0px auto 10px;
+    margin: 20px auto 30px;
     border: none;
-    width: 126px;
+    width: 113px;
     font-size: 20px;
     background-color: #800F2F;
     color: #FFF0F3;
     border-radius: 8px;
+    font-family: cursive;
 }
-
-#generate-btns {
-    flex-wrap: wrap;
-    width: 300px;
-    
-}
-
 
 #output {
     border: 2px solid #522e38;
@@ -47,7 +41,7 @@ button {
     background-color: #FF8FA3;
     border-radius: 5px;
     font-size: 21px;
-    margin: 0px auto 20px;
+    margin: 0px auto;
 }
 
 #hearts {
