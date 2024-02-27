@@ -31,7 +31,7 @@ const generate7 = document.getElementById("generate7")
 generate1.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors1[Math.floor(Math.random()*heartColors1.length)])
       
   }
@@ -51,7 +51,7 @@ copy1.addEventListener("click", function(){
 generate2.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors2[Math.floor(Math.random()*heartColors2.length)])
       
   }
@@ -71,7 +71,7 @@ copy2.addEventListener("click", function(){
 generate3.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors3[Math.floor(Math.random()*heartColors3.length)])
       
   }
@@ -91,7 +91,7 @@ copy3.addEventListener("click", function(){
 generate4.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors4[Math.floor(Math.random()*heartColors4.length)])
       
   }
@@ -111,7 +111,7 @@ copy4.addEventListener("click", function(){
 generate5.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors5[Math.floor(Math.random()*heartColors5.length)])
       
   }
@@ -131,7 +131,7 @@ copy5.addEventListener("click", function(){
 generate6.addEventListener("click", function(){
   let heartArray = []
     
-  for (let i = 0; i < 132; i++) {
+  for (let i = 0; i < 130; i++) {
       heartArray.push(heartColors6[Math.floor(Math.random()*heartColors6.length)])
       
   }
