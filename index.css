@@ -6,6 +6,7 @@ body{
   font-family: 'Outfit';
   max-height: 100vh;
   overflow-y: hidden;
+  touch-action: manipulation;
 }
 
 h1 {
