@@ -155,10 +155,6 @@ closeBtn.addEventListener("click", function(){
   document.getElementById("popup").classList.add("hidden")
 })
 
-closeBtn1.addEventListener("click", function(){
-  document.getElementById("popup1").classList.add("hidden")
-})
-
 const pages = document.querySelectorAll(".page");
     const translateAmount = 100; 
     let translate = 0;
